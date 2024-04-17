@@ -111,8 +111,9 @@ function App() {
       </div>
       
       <div className="fixed-bottom bg-light p-2 text-center">
-        All information sourced from <a href="https://www.exchangerate-api.com">https://www.exchangerate-api.com</a>
+        All information sourced from <a href="https://www.exchangerate-api.com" target="_blank">https://www.exchangerate-api.com</a>
       </div>
+
 
     </div>
   );
