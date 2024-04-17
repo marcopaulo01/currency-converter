@@ -114,7 +114,6 @@ function App() {
         All information sourced from <a href="https://www.exchangerate-api.com" target="_blank">https://www.exchangerate-api.com</a>
       </div>
 
-
     </div>
   );
 }
