@@ -111,7 +111,7 @@ function App() {
       </div>
       
       <div className="fixed-bottom bg-light p-2 text-center">
-        All information sourced from <a href="https://open.er-api.com/v6/latest/">https://open.er-api.com/v6/latest/</a>
+        All information sourced from <a href="https://www.exchangerate-api.com">https://www.exchangerate-api.com</a>
       </div>
 
     </div>
