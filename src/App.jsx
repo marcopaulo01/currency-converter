@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div className="container-fluid d-flex justify-content-center align-items-center min-vh-100" style={{background: 'linear-gradient(to bottom right, #FFD700, #32CD32)'}}>
-      <div className="col-md-6 bg-light p-4 border">
+      <div className="col-md-4 bg-light p-4 border">
         <h1>Currency Converter</h1>
 
         {submitClicked && exchangeRates && (
@@ -65,7 +65,7 @@ function App() {
                   type="number"
                   value={amount}
                   onChange={handleAmountChange}
-                  style={{ width: '50px', marginRight: '5px' }}
+                  style={{ width: '60px', marginRight: '5px' }}
                 />
               </label>
               <input
@@ -93,7 +93,7 @@ function App() {
                   value={amount && exchangeRates ? (amount * exchangeRates.rates[currency2]).toFixed(2) : ''}
                   readOnly
                   disabled
-                  style={{ width: '50px', marginRight: '5px' }}
+                  style={{ width: '60px', marginRight: '5px' }}
                 />
                 <input
                   type="text"
